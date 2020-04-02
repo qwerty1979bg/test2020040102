@@ -1,3 +1,3 @@
 data "external" "example" {
-  program = ["sleep", "1m"] 
+  program = ["sleep", "5m"] 
 }
