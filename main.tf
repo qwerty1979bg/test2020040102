@@ -1,3 +1,7 @@
+variable "test1" {}
+variable "test2" {}
+variable "test3" {}
+
 resource "null_resource" "begin2" {
   count = 1
   triggers = {
