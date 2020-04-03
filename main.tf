@@ -4,6 +4,6 @@ resource "null_resource" "begin2" {
     always_run = "${timestamp()}"
   }
   provisioner "local-exec" {
-    command = "uptime"
+    command = "uptime ; set"
   }
 }
