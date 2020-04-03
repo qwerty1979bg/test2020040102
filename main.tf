@@ -7,3 +7,15 @@ resource "null_resource" "begin2" {
     command = "uptime ; set"
   }
 }
+
+output "test1" {
+  value = var.test1
+}
+
+output "test2" {
+  value = var.test2
+}
+
+output "test3" {
+  value = var.test3
+}
